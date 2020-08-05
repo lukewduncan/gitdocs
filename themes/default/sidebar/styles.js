@@ -111,8 +111,8 @@ export const NavList = styled(filterProps(Accordion, ['isFirst']))`
     &.active {
       font-weight: 600;
       ${props => props.isFirst && css`
-        color: #6457DF;
-        border-right: 3px solid #6457DF;
+        color: darkred;
+        border-right: 3px solid darkred;
       `}
       :hover {
         opacity: 1;

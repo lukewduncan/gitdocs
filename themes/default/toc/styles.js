@@ -82,7 +82,7 @@ export const FolderItem = styled(Link)`
     content: "";
     width: 50px;
     height: 3px;
-    background: #6457DF;
+    background: darkred;
     position: absolute;
     top: -10px;
     left: 0;
